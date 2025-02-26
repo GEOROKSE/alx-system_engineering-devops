@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -1p | grep -E '^\.$|^\.\.$'; ls -1p | grep -vE '^\.$|^\.\.$' | sort -V | tr '\n' ',' | sed 's/,$/\n/') | tr -d '\n'
+ls -a1 | sort -V | tr '\n' ','
